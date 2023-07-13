@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+	color : white;
+	font-weight : 300;
+}	
+@font-face{
+	font-family: 'font';
+	src:url('./public/NeoDunggeunmoPro-Regular.ttf');
+
+}
+body{
+	font-family : 'font';
+	margin :0;
+	width:100%;
+	height:100vh;
+	background-color : black;
+}
+.border{
+	padding : 5px;
+	border : 0.5px solid #FFFFFF;
+}
+.flexCol{
+	display:flex;
+	flex-direction:column;
+	flex-wrap : wrap;
+	align-items:center;
+}
+.flexRow{
+	display:flex;
+	flex-direction:row;
+	flex-wrap : wrap;
+	justify-content : space-evenly;
+	align-items:center;
+}
+.bodyFrame{
+	gap:40px;
+	height: 100vh;
+	padding-left :360px;
+	padding-right : 360px;
+	background-color:black;
+	justify-content: center;
+}
+.title{
+	font-size:82pt;
+}
+.githubTitle{
+	font-size : 30pt;
+}
+.startBtn{
+	border: 1px dashed #FFFFFF;
+	padding : 15px 30px;
+	font-size:41pt;
+	cursor:pointer
+	
+}
+.startBtn:hover{
+	background-color: #FFFFFF;
+	color: black;
+}
+.buttonGroup{
+	font-size: 25pt;
+	gap:55px;
+	cursor: pointer;
+}
+
+.prev{
+	padding:5px;
+	display: none;
+}
+.prev:hover{
+	background-color: #FFFFFF;
+	color: black;
+}
+.next{
+	padding:5px;
+	display: none;
+}
+.next:hover{
+	background-color: #FFFFFF;
+	color: black;
+}
+.contentTitle{
+	font-size: 40pt;
+}
+#article{
+	gap:20px;
+	padding: 15px;
+	
+}
+.basicContentFrame{
+	font-size: 26pt;
+	text-align: center;
+}
+.basicContentFrame div{
+	margin-bottom: 15px;
+}
+.beforeContentFrame{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+.beforeContentInnerFrame{
+	font-size: 27pt;
+	gap: 25px;
+}
+.whySSAFYContent{
+	font-size: 27pt;
+	gap:25px
+}
+.SSAFYGoalsContent{
+	font-size: 27pt;
+	display:flex;
+	flex-direction: column;
+	gap:25px;
+}
+
